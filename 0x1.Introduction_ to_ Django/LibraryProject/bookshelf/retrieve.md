@@ -1,4 +1,1 @@
-# Retrieve Operation
-## Python Command:
-books = Book.objects.all()
-print(books)
+book = Book.objects.get(title='1984') print(book)

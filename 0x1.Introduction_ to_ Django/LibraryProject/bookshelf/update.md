@@ -1,6 +1,1 @@
-# Update Operation
-
-## Python Command:
-book.title = "Nineteen Eighty-Four"
-book.save()
-print(book)
+book = Book.objects.get(id=1) book.title= "Nineteen Eighty-Four" book.save()
